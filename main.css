@@ -1,7 +1,20 @@
-h1 {
-  color: #ff5555;
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif
+}
+.w3-row-padding img {
+    margin-bottom: 12px
 }
 
-a {
-  font-family: 'Times New Roman', Times, serif;
+.w3-sidebar {
+    width: 120px;background: #222;
 }
+
+#main {
+    margin-left: 120px
+}
+#w3-bar-item-w3-button{
+    width:25% !important
+
+}
+
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
